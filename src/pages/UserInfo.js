@@ -1,14 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import MyForm from "../components/MyForm";
-import { useDispatch, useSelector } from 'react-redux';
+import {useSelector } from 'react-redux';
 import Button from '@atlaskit/button';
 
 
-
-
-
 export const UserInfo = (props) =>{
-    const dispatch = useDispatch();
     const store = useSelector(state => state);
     let users = store.users;
     let firstname, lastname, email, phone;
@@ -20,15 +16,13 @@ export const UserInfo = (props) =>{
         phone = users.phone;
     }
 
-
-
     let inforScope;
 
     if(users === null){
-        inforScope =  <MyForm /> }
+        inforScope =  <MyForm history = {props.history} /> }
     else {
         inforScope  = <div>
-            <Button onClick={() => {props.history.push('/')}}>Logout </Button>
+            <Button onClick={() => {props.history.push('/')}}>Home</Button>
             <h3>firstname: {firstname}</h3>
             <h3>lastname: {lastname}</h3>
             <h3>email: {email}</h3>
@@ -36,10 +30,5 @@ export const UserInfo = (props) =>{
         </div>
     }
 
-        return (
-
-
-                inforScope
-
-        );
+        return (inforScope);
 }

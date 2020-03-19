@@ -7,7 +7,7 @@ import {Grid, GridColumn} from '@atlaskit/page';
 import Subscription from '../pages/Subscription';
 import {UserInfo} from '../pages/UserInfo';
 import {Provider} from 'react-redux';
-
+import history from '../history/history';
 
 
 import reducer from "../reducers";
@@ -21,17 +21,17 @@ window.store = store;
 
 const MainRouterBuf = () => (
     <Provider store={store}>
-        <Router>
+        <Router histroy ={history}>
             <Grid layout="fluid" spacing="compact">
                 <GridColumn medium={4}>
                     <App/>
                 </GridColumn>
-                <GridColumn medium={8}>
+                <GridColumn medium={6}>
                     <Switch>
-                        <Route path="/" element={HomePage}/>
-                        <Route path="/us" element={UserInfo}/>
-                        <Route path="/sub" element={Subscription}/>
-                        <Route path="/set" element={SettingsPage}/>
+                        <Route exact path="/" component={HomePage}/>
+                        <Route exact path="/us" component={UserInfo}/>
+                        <Route exact path="/sub" component={Subscription}/>
+                        <Route exact path="/set" component={SettingsPage}/>
                     </Switch>
                 </GridColumn>
             </Grid>
