@@ -4,11 +4,13 @@ import Button from '@atlaskit/button';
 import TextField from '@atlaskit/textfield';
 import {setUser} from '../actions';
 import { useHistory } from "react-router-dom";
+import { useDispatch } from 'react-redux';
+
 
 
 const MyForm = (props) => {
-
-        let history = useHistory();
+    const dispatch = useDispatch();
+    let history = useHistory();
 
         function handleSubmit() {
             console.log("handleClick");
@@ -52,4 +54,3 @@ const MyForm = (props) => {
 
 export default MyForm;
 
-const ShowTheLocationWithRouter = withRouter(MyForm);

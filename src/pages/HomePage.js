@@ -12,12 +12,6 @@ const HomePage = (props) =>{
                 <PageTitle>
                 This is HomePage
                 </PageTitle>
-                <MainSection/>
-                <ButtonGroup>
-                    <Button
-                        appearance="primary">Click to view Atlaskit modal</Button>
-                    <Button>click to view Atlaskit flag</Button>
-                </ButtonGroup>
 
             </ContentWrapper>
 

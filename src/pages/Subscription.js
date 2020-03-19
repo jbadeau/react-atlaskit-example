@@ -1,12 +1,27 @@
-
 import React from 'react';
-import ContentWrapper from '../components/ContentWrapper';
+import SingleExample from '../components/SingleExample';
+import {useSelector} from "react-redux";
+import Lorem from 'react-lorem-component';
 
-const Subscription =(props)=> {
+
+
+const Subscription =()=> {
+    const store = useSelector(state => state);
+    let options = store.options;
+
         return (
-            <ContentWrapper>
-                <p>This is subscription!</p>
-            </ContentWrapper>
+            <div>
+                <div>
+                    <p>This is subscription!</p>
+                    <p>
+                        <Lorem count={3} />
+                    </p>
+                </div>
+                <div>
+
+                </div>
+                <SingleExample options = {options}/>
+                </div>
         );
 };
 

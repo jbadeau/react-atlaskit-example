@@ -2,14 +2,18 @@ import React from 'react';
 import MyForm from "../components/MyForm";
 import {useSelector } from 'react-redux';
 import Button from '@atlaskit/button';
-import { useHistory } from "react-router-dom";
+import ContentWrapper from '../components/ContentWrapper';
+import {logOut} from '../actions'
+import { useDispatch } from 'react-redux';
+
+
 
 
 export const UserInfo = (props) =>{
     const store = useSelector(state => state);
+    const dispatch = useDispatch();
     let users = store.users;
     let firstname, lastname, email, phone;
-    let history = useHistory();
 
 
     if(users) {
@@ -24,14 +28,17 @@ export const UserInfo = (props) =>{
     if(users === null){
         inforScope =  <MyForm history = {props.history} /> }
     else {
-        inforScope  = <div>
+        inforScope  = <ContentWrapper>
 
-            <Button onClick={() => {props.history.push('/')}}>Home</Button>
+            <Button onClick={() => {
+                dispatch(logOut())
+                props.history.push('/')
+            }}>Logout</Button>
             <h3>firstname: {firstname}</h3>
             <h3>lastname: {lastname}</h3>
             <h3>email: {email}</h3>
             <h3>phone: {phone}</h3>
-        </div>
+        </ContentWrapper>
     }
 
         return (inforScope);
