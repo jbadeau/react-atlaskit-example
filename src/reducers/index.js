@@ -1,29 +1,27 @@
+import {
+    SET_USER,
 
+} from "../actions"
 
 const initialState = {
-    f_name: null,
+    users: null,
 
-    l_name: null,
-
-    email: null,
-
-    phone: null,
-
-
-    cardState: 'QuizCard',
-
-    count: 0,
-
-    currentQuiz: null,
-
-    statistics: null
 };
 
 export default (state = initialState, action) => {
 
     switch (action.type) {
+
+        case SET_USER:
+            return {
+        ...state,
+               users: action.payload
+            };
+
         default:
             return state;
     }
 
 }
+
+

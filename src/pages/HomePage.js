@@ -1,13 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ContentWrapper from '../components/ContentWrapper';
 import PageTitle from '../components/PageTitle';
 import MainSection from '../components/MainSection';
 import Button, { ButtonGroup } from '@atlaskit/button';
 
 
-export default class HomePage extends Component {
+const HomePage = (props) =>{
 
-    render() {
         return (
             <ContentWrapper>
                 <PageTitle>
@@ -23,5 +22,5 @@ export default class HomePage extends Component {
             </ContentWrapper>
 
         );
-    }
-}
+};
+export default HomePage;

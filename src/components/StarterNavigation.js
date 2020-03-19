@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Nav, {AkContainerTitle,} from '@atlaskit/navigation';
 import Button from '@atlaskit/button';
 import Table, {Row, Cell} from '@atlaskit/table-tree';
+import atlaskitLogo from '../images/atlaskit.png';
 
 
 export default class StarterNavigation extends React.Component {
@@ -14,10 +15,17 @@ export default class StarterNavigation extends React.Component {
                 onResize={304}
                 containerHeaderComponent={() => (
                     <AkContainerTitle
-                    text="Customer info portal"
+                        href="https://atlaskit.atlassian.com/"
+                        icon={
+                            <img alt="atlaskit logo" src={atlaskitLogo} />
+                        }
+                        text="Atlaskit"
                     />
                 )}
-            >
+                hasBlanket
+                drawers={[]}
+
+                >
                 <Table>
                     <Row>
                         <Cell>
@@ -40,6 +48,7 @@ export default class StarterNavigation extends React.Component {
                         </Cell>
                     </Row>
                 </Table>
+
             </Nav>
 
         );

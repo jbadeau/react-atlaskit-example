@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@atlaskit/avatar": "^17.1.9",
     "@atlaskit/button": "^13.3.9",
     "@atlaskit/checkbox": "^10.1.10",
     "@atlaskit/field-radio-group": "^7.0.2",
