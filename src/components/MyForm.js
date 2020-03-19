@@ -3,27 +3,27 @@ import Form, { Field } from '@atlaskit/form';
 import Button from '@atlaskit/button';
 import TextField from '@atlaskit/textfield';
 import {setUser} from '../actions';
-import { useDispatch } from 'react-redux';
-import { withRouter } from "react-router";
+import { useHistory } from "react-router-dom";
 
 
 const MyForm = (props) => {
-    const dispatch = useDispatch();
+
+        let history = useHistory();
+
+        function handleSubmit() {
+            console.log("handleClick");
+            history.push("/");
+        }
 
 
-    function handleClick () {
-        console.log("handleClick pressed");
-        if(props.history){
-            props.history.push('/');}
-    }
-
-
-    return (
+        return (
         <>
             <p> Please enter your information</p>
 
             <Form onSubmit={data => {
-                    dispatch(setUser(data))}
+                    dispatch(setUser(data))
+                handleSubmit()
+            }
             }>
                 {({formProps}) => (
                     <form {...formProps}>
@@ -39,7 +39,7 @@ const MyForm = (props) => {
                         <Field name="phone" defaultValue="" label="Phone" isRequired>
                             {({fieldProps}) => <TextField {...fieldProps} />}
                         </Field>
-                        <Button type="submit" appearance="primary" onClick = {() => handleClick}
+                        <Button type="submit" appearance="primary"
                         >
                             Submit
                         </Button>
