@@ -7,8 +7,8 @@ import {Grid, GridColumn} from '@atlaskit/page';
 import Subscription from '../pages/Subscription';
 import {UserInfo} from '../pages/UserInfo';
 import {Provider} from 'react-redux';
-import history from '../history/history';
-import { useDispatch, useSelector } from 'react-redux';
+import { createBrowserHistory } from "history";
+
 
 
 
@@ -20,11 +20,13 @@ const store = createStore(reducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 window.store = store;
 
+let customHistory = createBrowserHistory();
+
+
 
 const MainRouterBuf = () => (
     <Provider store={store}>
-        <React.Fragment>
-        <Router history={history}>
+        <Router history={customHistory} >
             <Grid layout="fluid" spacing="compact">
                 <GridColumn medium={4}>
                     <App/>
@@ -39,7 +41,6 @@ const MainRouterBuf = () => (
                 </GridColumn>
             </Grid>
         </Router>
-        </React.Fragment>
     </Provider>
 );
 

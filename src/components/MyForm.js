@@ -4,6 +4,8 @@ import Button from '@atlaskit/button';
 import TextField from '@atlaskit/textfield';
 import {setUser} from '../actions';
 import { useDispatch } from 'react-redux';
+import { withRouter } from "react-router";
+
 
 const MyForm = (props) => {
     const dispatch = useDispatch();
@@ -49,3 +51,5 @@ const MyForm = (props) => {
 }
 
 export default MyForm;
+
+const ShowTheLocationWithRouter = withRouter(MyForm);
