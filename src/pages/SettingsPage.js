@@ -1,8 +1,8 @@
 import React from 'react';
-import MainSection from '../components/MainSection';
+import MainSettingsSection from '../components/MainSettingsSection';
 import ContentWrapper from '../components/ContentWrapper';
-import PageTitle from '../components/PageTitle';
-import ModalBasic from '../components/ModalBasic';
+import PageTitleWrapper from '../components/PageTitleWrapper';
+import SettingsModal from '../components/SettingsModal';
 
 
 
@@ -10,9 +10,9 @@ import ModalBasic from '../components/ModalBasic';
 const SettingsPage = (props) =>{
     return (
       <ContentWrapper>
-        <PageTitle>Settings</PageTitle>
-        <MainSection />
-        <ModalBasic/>
+        <PageTitleWrapper>Settings</PageTitleWrapper>
+        <MainSettingsSection />
+        <SettingsModal/>
       </ContentWrapper>
     );
 };

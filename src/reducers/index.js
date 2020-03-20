@@ -7,6 +7,8 @@ import {
 const initialState = {
     users: null,
 
+    isLogged: false,
+
     options: [
         { label: 'TechCrunch.com', value: 'TechCrunch.com' },
         { label: 'TheNextWeb.com', value: 'TheNextWeb.com' },
@@ -26,13 +28,13 @@ export default (state = initialState, action) => {
         case SET_USER:
             return {
         ...state,
-               users: action.payload
+               users: action.payload, isLogged: true
             };
 
         case LOG_OUT:
             return {
                 ...state,
-                users: null
+                users: null, isLogged: false
             };
 
         default:

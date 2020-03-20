@@ -1,5 +1,5 @@
 import React from 'react';
-import MyForm from "../components/MyForm";
+import UserForm from "../components/UserForm";
 import {useSelector } from 'react-redux';
 import Button from '@atlaskit/button';
 import ContentWrapper from '../components/ContentWrapper';
@@ -26,7 +26,7 @@ export const UserInfo = (props) =>{
     let inforScope;
 
     if(users === null){
-        inforScope =  <MyForm history = {props.history} /> }
+        inforScope =  <UserForm history = {props.history} /> }
     else {
         inforScope  = <ContentWrapper>
 

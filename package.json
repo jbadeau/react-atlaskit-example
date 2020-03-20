@@ -11,6 +11,7 @@
     "@atlaskit/form": "^7.1.5",
     "@atlaskit/modal-dialog": "^10.5.4",
     "@atlaskit/navigation": "^36.0.3",
+    "@atlaskit/navigation-next": "^8.0.2",
     "@atlaskit/page": "^11.0.12",
     "@atlaskit/select": "^11.0.9",
     "@atlaskit/table-tree": "^8.0.2",

@@ -5,26 +5,24 @@ import TextField from '@atlaskit/textfield';
 import {setUser} from '../actions';
 import { useHistory } from "react-router-dom";
 import { useDispatch } from 'react-redux';
+import ContentWrapper from '../components/ContentWrapper';
 
 
 
-const MyForm = (props) => {
+const UserForm = (props) => {
     const dispatch = useDispatch();
     let history = useHistory();
 
-        function handleSubmit() {
-            console.log("handleClick");
-            history.push("/");
-        }
+
 
 
         return (
-        <>
-            <p> Please enter your information</p>
+        <ContentWrapper>
+            <ContentWrapper>
+            <h2> Please enter your information</h2>
 
             <Form onSubmit={data => {
                     dispatch(setUser(data))
-                handleSubmit()
             }
             }>
                 {({formProps}) => (
@@ -41,6 +39,7 @@ const MyForm = (props) => {
                         <Field name="phone" defaultValue="" label="Phone" isRequired>
                             {({fieldProps}) => <TextField {...fieldProps} />}
                         </Field>
+                        <br/>
                         <Button type="submit" appearance="primary"
                         >
                             Submit
@@ -48,9 +47,10 @@ const MyForm = (props) => {
                     </form>
                 )}
             </Form>
-        </>
+        </ContentWrapper>
+        </ContentWrapper>
     );
 }
 
-export default MyForm;
+export default UserForm;
 

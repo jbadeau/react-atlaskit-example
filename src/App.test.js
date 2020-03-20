@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainRouterBuf from './App';
+import MainRouterBuf from './MenuSelector';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

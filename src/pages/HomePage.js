@@ -1,17 +1,15 @@
 import React from 'react';
 import ContentWrapper from '../components/ContentWrapper';
-import PageTitle from '../components/PageTitle';
-import MainSection from '../components/MainSection';
-import Button, { ButtonGroup } from '@atlaskit/button';
+import PageTitleWrapper from '../components/PageTitleWrapper';
 
 
 const HomePage = (props) =>{
 
         return (
             <ContentWrapper>
-                <PageTitle>
+                <PageTitleWrapper>
                 This is HomePage
-                </PageTitle>
+                </PageTitleWrapper>
 
             </ContentWrapper>
 
