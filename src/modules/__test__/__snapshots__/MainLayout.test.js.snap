@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="css-a1uz4q-LayoutContainer"
+  data-layout-container={true}
+>
+  <div
+    className="css-p1f606-NavigationContainer"
+    data-testid="Navigation"
+    onMouseLeave={[Function]}
+    onMouseOut={null}
+    onMouseOver={null}
+  >
+    <div
+      className="css-1qjvlxm-ContainerNavigationMask"
+      onMouseOver={null}
+    >
+      <div
+        data-testid="GlobalNavigation"
+        onMouseOver={null}
+      >
+        <div
+          className="css-10l1y8c-Shadow"
+          style={
+            Object {
+              "marginLeft": 64,
+            }
+          }
+        />
+        <div
+          data-webdriver-test-key="global-navigation"
+        >
+          <div
+            className="css-1rawbl"
+          >
+            <div
+              className="css-1qhua1f-PrimaryItemsList"
+            />
+            <div
+              className="css-1kacc6j-SecondaryItemsList"
+            >
+              <div
+                className="css-2rlxtj"
+              >
+                <div
+                  className="css-7xjigh"
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  role="presentation"
+                >
+                  <div
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseMove={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      className="css-1baulvz"
+                    >
+                      <button
+                        className="css-t4db9y"
+                        data-testid="GlobalNavigationItem"
+                        id="10-composed-navigation-2GlobalItem"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="css-1ixbp0l"
+                        >
+                          <div
+                            style={
+                              Object {
+                                "display": "inline-block",
+                                "height": "44px",
+                                "outline": 0,
+                                "position": "relative",
+                                "width": "44px",
+                                "zIndex": undefined,
+                              }
+                            }
+                          >
+                            <span
+                              className="sc-fznxsB ccEotC"
+                              size="large"
+                            >
+                              <svg
+                                role="img"
+                                style={
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "borderRadius": "50%",
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                                version="1.1"
+                                viewBox="0 0 128 128"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g
+                                  className="sc-fznyAO eYskFy"
+                                  mode="light"
+                                >
+                                  <circle
+                                    cx="64"
+                                    cy="64"
+                                    r="64"
+                                  />
+                                  <g>
+                                    <path
+                                      d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
+                                    />
+                                    <path
+                                      d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
+                                    />
+                                  </g>
+                                </g>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1yxtf1y-ContentNavigationWrapper"
+        data-testid="ContextualNavigation"
+        style={
+          Object {
+            "width": 240,
+            "willChange": "width",
+          }
+        }
+      >
+        <div
+          className="css-606lh7-ProductNavigationPrimitiveBase"
+        >
+          <div
+            className="css-9uaqau-ScrollProvider"
+            role="group"
+            tabIndex={-1}
+          >
+            <div
+              data-webdriver-test-key="product-navigation"
+            />
+          </div>
+        </div>
+        <div
+          className="css-1y540l9-ContainerNavigationPrimitiveBase"
+        >
+          <div
+            className="css-9uaqau-ScrollProvider"
+            role="group"
+            tabIndex={-1}
+          >
+            <div
+              data-webdriver-test-key="container-navigation"
+            >
+              <div
+                className="css-i4a48x-StaticTransitionGroup"
+              >
+                <div
+                  className="css-0"
+                >
+                  <div
+                    css={
+                      Object {
+                        "boxSizing": "border-box",
+                        "paddingBottom": 20,
+                        "paddingLeft": "16px",
+                        "paddingRight": "16px",
+                        "paddingTop": 20,
+                      }
+                    }
+                    data-webdriver-test-key="container-header"
+                  >
+                    <div
+                      className="css-7xjigh"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      role="presentation"
+                    >
+                      <button
+                        className="css-ienhqj"
+                        data-testid="NavigationItem"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="css-1y6c4wb"
+                        >
+                          <div
+                            style={
+                              Object {
+                                "display": "inline-block",
+                                "height": "44px",
+                                "outline": 0,
+                                "position": "relative",
+                                "width": "44px",
+                                "zIndex": undefined,
+                              }
+                            }
+                          >
+                            <span
+                              className="sc-fznxsB jKsTrN"
+                              size="large"
+                            >
+                              <svg
+                                role="img"
+                                style={
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "borderRadius": "3px",
+                                    "height": "100%",
+                                    "width": "100%",
+                                  }
+                                }
+                                version="1.1"
+                                viewBox="0 0 128 128"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g
+                                  className="sc-fznyAO eYskFy"
+                                  mode="light"
+                                >
+                                  <rect
+                                    height={128}
+                                    width={128}
+                                    x="0"
+                                    y="0"
+                                  />
+                                  <g
+                                    transform="translate(19.000000, 32.000000)"
+                                  >
+                                    <path
+                                      d="M18.25,32.5 L54.5833333,32.5 L54.5833333,23.4166667 L18.25,23.4166667 L18.25,32.5 Z M9.16666667,18.8331166 C9.16666667,16.3479549 11.236581,14.3333333 13.7195662,14.3333333 L59.1137671,14.3333333 C61.6282641,14.3333333 63.6666667,16.3815123 63.6666667,18.8331166 L63.6666667,41.5833333 L9.16666667,41.5833333 L9.16666667,18.8331166 Z"
+                                    />
+                                    <path
+                                      d="M18.25,9.81383682 C18.25,4.7850061 22.3296003,0.708333333 27.3238554,0.708333333 L36.4261446,0.708333333 C41.4374965,0.708333333 45.5,4.76812825 45.5,9.81383682 L45.5,23.4166667 L18.25,23.4166667 L18.25,9.81383682 Z M36.4166667,9.81383682 C36.4166667,9.79803315 36.4184748,9.79303784 36.4207515,9.79166667 L27.3238554,9.79166667 C27.3447224,9.79166667 27.3333333,9.80308059 27.3333333,9.81383682 L27.3333333,14.3333333 L36.4166667,14.3333333 L36.4166667,9.81383682 Z"
+                                    />
+                                    <path
+                                      d="M11.4386532,55.2083333 L74.9953562,55.2083333 L79.5452242,41.5833333 L9.80449752,41.5833333 L11.4386532,55.2083333 Z M0.1048547,36.987541 C-0.192399775,34.5091405 1.5865717,32.5 4.09502839,32.5 L87.6264735,32.5 C90.1274401,32.5 91.5225656,34.393506 90.7231047,36.7875656 L82.9702846,60.004101 C82.1795402,62.3720582 79.5279445,64.2916667 76.9985338,64.2916667 L7.91963924,64.2916667 C5.41227673,64.2916667 3.14113571,62.3029555 2.84143097,59.8041257 L0.1048547,36.987541 Z"
+                                    />
+                                  </g>
+                                </g>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className="css-t44v0r"
+                        >
+                          <div
+                            className="css-1xaaz5m"
+                          >
+                            Choose information
+                          </div>
+                          <div
+                            className="css-1ar499c"
+                          >
+                            Customer info information
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-hwlzh1-ScrollableTransitionGroup"
+              >
+                <div
+                  className="css-xdwmn0"
+                >
+                  <div
+                    className="css-1hpn4bw"
+                  >
+                    <div
+                      className="css-1tw9lwf"
+                    >
+                      <div
+                        className="css-hwlzh1-ScrollableTransitionGroup"
+                      >
+                        <div
+                          className="css-xdwmn0"
+                        >
+                          <div
+                            className="css-1hpn4bw"
+                          >
+                            <div
+                              className="css-1tw9lwf"
+                            >
+                              <a
+                                href="/"
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="css-7xjigh"
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  role="presentation"
+                                >
+                                  <button
+                                    className="css-1t5na7c"
+                                    data-testid="NavigationItem"
+                                    onClick={[Function]}
+                                  >
+                                    <div
+                                      className="css-t44v0r"
+                                    >
+                                      <div
+                                        className="css-1olrtn"
+                                      >
+                                        Home
+                                      </div>
+                                    </div>
+                                  </button>
+                                </div>
+                              </a>
+                              <a
+                                href="/user"
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="css-7xjigh"
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  role="presentation"
+                                >
+                                  <button
+                                    className="css-1t5na7c"
+                                    data-testid="NavigationItem"
+                                    onClick={[Function]}
+                                  >
+                                    <div
+                                      className="css-t44v0r"
+                                    >
+                                      <div
+                                        className="css-1olrtn"
+                                      >
+                                        User Info
+                                      </div>
+                                    </div>
+                                  </button>
+                                </div>
+                              </a>
+                              <a
+                                href="/settings"
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="css-7xjigh"
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  role="presentation"
+                                >
+                                  <button
+                                    className="css-1t5na7c"
+                                    data-testid="NavigationItem"
+                                    onClick={[Function]}
+                                  >
+                                    <div
+                                      className="css-t44v0r"
+                                    >
+                                      <div
+                                        className="css-1olrtn"
+                                      >
+                                        Settings
+                                      </div>
+                                    </div>
+                                  </button>
+                                </div>
+                              </a>
+                              <a
+                                href="/subscribe"
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="css-7xjigh"
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  role="presentation"
+                                >
+                                  <button
+                                    className="css-1t5na7c"
+                                    data-testid="NavigationItem"
+                                    onClick={[Function]}
+                                  >
+                                    <div
+                                      className="css-t44v0r"
+                                    >
+                                      <div
+                                        className="css-1olrtn"
+                                      >
+                                        Subscription
+                                      </div>
+                                    </div>
+                                  </button>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-13ke4gd-Outer"
+    >
+      <div
+        className="css-1tyxp8p-Shadow"
+      />
+      <div
+        className="css-1xocsu4-GrabArea"
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <div
+          className="css-o6e60g-GrabArea"
+        />
+      </div>
+      <div
+        onMouseOver={null}
+      >
+        <div
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          onMouseMove={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          <button
+            aria-expanded={true}
+            aria-label="Toggle navigation"
+            className="ak-navigation-resize-button css-2rq92t-Button"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            type="button"
+          >
+            <div
+              className="css-1ry36mr-Button"
+            />
+            <span
+              className="sc-fzpmMD fzboBS"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<svg width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\" focusable=\\"false\\" role=\\"presentation\\"><path d=\\"M13.706 9.698a.988.988 0 0 0 0-1.407 1.01 1.01 0 0 0-1.419 0l-2.965 2.94a1.09 1.09 0 0 0 0 1.548l2.955 2.93a1.01 1.01 0 0 0 1.42 0 .988.988 0 0 0 0-1.407l-2.318-2.297 2.327-2.307z\\" fill=\\"currentColor\\" fill-rule=\\"evenodd\\"/></svg>",
+                }
+              }
+              role="presentation"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-teprsg"
+    data-testid="Content"
+    style={
+      Object {
+        "paddingLeft": 240,
+        "willChange": "padding-left",
+      }
+    }
+  >
+    <div
+      data-webdriver-test-key="content"
+      style={
+        Object {
+          "padding": "32px 40px",
+        }
+      }
+    >
+      <div
+        className="sc-fzpkJw dfufAY"
+        spacing="cosy"
+      >
+        <div
+          className="sc-fznzOf gIWWbb"
+        >
+          <div>
+            <div
+              className="sc-fznMnq bjDVhP"
+            >
+              <h1
+                className="sc-fzoant gfGLHn"
+              >
+                This is HomePage
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

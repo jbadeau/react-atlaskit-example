@@ -6,7 +6,6 @@ export const MenuSelector = () => {
     return (
         <MenuSection>
             {({className}) => (
-
                 <div className={className}>
                     <Link to={`/`}><Item text="Home"/></Link>
                     <Link to={`/user`}><Item text='User Info'/></Link>

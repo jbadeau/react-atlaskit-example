@@ -13,7 +13,10 @@ const UserForm = (props) => {
     const dispatch = useDispatch();
     let history = useHistory();
 
-
+        function handleSubmit() {
+            console.log("handleClick");
+            history.push("/");
+        }
 
 
         return (
@@ -23,6 +26,7 @@ const UserForm = (props) => {
 
             <Form onSubmit={data => {
                     dispatch(setUser(data))
+                handleSubmit()
             }
             }>
                 {({formProps}) => (
@@ -39,7 +43,7 @@ const UserForm = (props) => {
                         <Field name="phone" defaultValue="" label="Phone" isRequired>
                             {({fieldProps}) => <TextField {...fieldProps} />}
                         </Field>
-                        <br/>
+
                         <Button type="submit" appearance="primary"
                         >
                             Submit

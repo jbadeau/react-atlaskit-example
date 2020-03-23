@@ -102,5 +102,4 @@ const MainLayout = () => {
             </Provider>
         );
 }
-
 export default MainLayout;
