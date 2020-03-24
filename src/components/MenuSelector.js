@@ -4,7 +4,7 @@ import {Item, MenuSection} from "@atlaskit/navigation-next";
 
 export const MenuSelector = () => {
     return (
-        <MenuSection>
+        <MenuSection className="modalSelect">
             {({className}) => (
                 <div className={className}>
                     <Link to={`/`}><Item text="Home"/></Link>
