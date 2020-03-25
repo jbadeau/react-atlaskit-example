@@ -6,6 +6,8 @@ import {
 } from "../actions"
 
 const initialState = {
+    homePhrase: "This is Phrase from Redux Store",
+
     users: null,
 
     isLogged: false,

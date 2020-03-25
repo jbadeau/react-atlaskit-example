@@ -10,12 +10,11 @@ import {
     ItemAvatar,
     NavigationProvider,
     ContainerHeader,
-    Item
 } from "@atlaskit/navigation-next";
 import {createStore} from "redux";
 import reducer from "../reducers";
 import {Provider} from "react-redux";
-import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import history from "../history/history";
 import HomePage from "../pages/HomePage";
 import {UserInfo} from "../pages/UserInfo";

@@ -1,0 +1,26 @@
+name: micros quickstart nodejs
+description: micros quickstart for nodejs
+organization: "Cloud Platform Engineering"
+
+notifications:
+  email: micros@atlassian.com
+
+links:
+  binary:
+    type: docker
+    name: "${DOCKER_IMAGE}"
+    tag: "${DOCKER_TAG}"
+  healthcheck:
+    uri: /
+  source:
+    #url: ssh://git@stash.atlassian.com:7997/mc/micros-quickstart-nodejs.git
+
+cleanup: true
+
+resources:
+  - type: redis
+    name: smart-create-branch
+    attributes:
+      snapshotRetention: 0
+      config:
+        maxmemory-policy: allkeys-lru
